@@ -18,7 +18,8 @@ server:
   port: 9009
 
 # graylog
-graylog.graylogHost: 10.10.11.103
+#graylog.graylogHost: 192.168.124.129
+graylog.graylogHost: 10.10.11.64
 graylog.graylogPort: 28082
 graylog.app_name: cloud-graylog
 address.ip: ${spring.cloud.client.ip-address}

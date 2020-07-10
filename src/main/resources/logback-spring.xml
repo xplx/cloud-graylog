@@ -60,7 +60,7 @@
     </logger>
 
 
-    <!--统一日志收集平台配置-->
+    <!--统一日志收集平台配置UDP-->
     <appender name="GELF" class="de.siegmar.logbackgelf.GelfUdpAppender">
         <graylogHost>${graylog.graylogHost}</graylogHost>
         <graylogPort>${graylog.graylogPort}</graylogPort>
